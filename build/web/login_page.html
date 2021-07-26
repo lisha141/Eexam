@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>ExamApp</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css folder/cssstyle1.css" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+    </head>
+    <body onload="showImage()">
+        <div id="div1">
+            <br>
+            <!--<form action="Examservlet" method="post" onsubmit='return validateData()'>-->
+            <form action="Examservlet" method="get" id="form">
+                <img src="Images/login_img.png" alt="loginimg" id="login_img"/><br>
+                <br>
+                <label>Username</label>
+                <input type="text" id="username" name="username" title="username" placeholder="Enter your username"/><br>
+                <br>
+                <label>Password</label>
+                <input type="password" id="password" name="password" title="password" placeholder="Enter your password"/><br>   
+                <br/>
+
+
+
+                <img id="myimage" src="Images/83tsU.png"><br>
+                <input id="t3" type="text" name="t3" required/>
+                           
+                <input type="button" onclick="showImage()" id="refresh" value="Show Another"/>
+
+                <br/>
+                <input type="submit" id="login" name="login" title="login" value="Login" onclick="validateImage()"/>
+                <input type="submit" id="register" name="register" title="register" value="Register" /><br>
+                <br/>
+                <input type="checkbox" id="rememberme" name="rememberme"><label>Remember me</label><br>
+                <br/>
+                <a href="index.html">ForgotPassword</a>
+            </form>
+            <br/>
+        </div>
+    </body>
+</html>
