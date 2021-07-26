@@ -1,0 +1,8 @@
+
+<div class="dropdown pull-right">
+           <a class="dropdown-toggle btn" data-toggle="dropdown">More<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+          <li><a href="mainpage.jsp"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+          <li><a href="Examservlet?op=11"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+          </ul>
+      </div> 

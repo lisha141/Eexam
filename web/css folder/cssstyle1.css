@@ -1,0 +1,40 @@
+#div1{
+   position:absolute;
+   left:38%;
+   right:0;
+   border:black groove 2px;
+   width:20%;
+   text-align: center;
+   background-color: #d4caca;
+   font-size: 15px;
+   font-family: arial;
+   }
+   #t1,#t2,#t3{
+       width:200px;
+   }
+   #capcha{
+     border:black solid 1px;
+     background-color: white;
+     height:80px;
+    text-align:center; 
+      
+   }
+   #refresh{
+      width:100px;
+      height:25px;
+       text-align: left;
+       position: relative;
+       top:1px;
+   }
+   .material-icons{
+       position: relative;
+       right:6px;
+       bottom:2px;
+     width:3px;
+      height:3px;  
+   }
+   #myimage{
+       height:45px;
+       width:200px;
+   }
+
